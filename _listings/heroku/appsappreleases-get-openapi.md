@@ -36,6 +36,9 @@ paths:
       - in: header
         name: Accept
         description: Content type
+      - in: query
+        name: Accept
+        description: Content type
       responses:
         200:
           description: OK
@@ -63,6 +66,14 @@ paths:
       - in: header
         name: Accept
         description: Content type
+      - in: query
+        name: Accept
+        description: Content type
+      - in: query
+        name: app
+        description: The app name
+      - in: path
+        name: app
       responses:
         200:
           description: OK
@@ -91,6 +102,19 @@ paths:
       - in: header
         name: Accept
         description: Content type
+      - in: query
+        name: Accept
+        description: Content type
+      - in: query
+        name: addon
+        description: the addon name
+      - in: path
+        name: addon
+      - in: query
+        name: app
+        description: The app name
+      - in: path
+        name: app
       responses:
         200:
           description: OK
@@ -106,6 +130,19 @@ paths:
       - in: header
         name: Accept
         description: Content type
+      - in: query
+        name: Accept
+        description: Content type
+      - in: query
+        name: addon
+        description: the addon name
+      - in: path
+        name: addon
+      - in: query
+        name: app
+        description: The app name
+      - in: path
+        name: app
       responses:
         200:
           description: OK
@@ -122,6 +159,19 @@ paths:
       - in: header
         name: Accept
         description: Content type
+      - in: query
+        name: Accept
+        description: Content type
+      - in: query
+        name: addon
+        description: the addon name
+      - in: path
+        name: addon
+      - in: query
+        name: app
+        description: The app name
+      - in: path
+        name: app
       responses:
         200:
           description: OK
@@ -149,6 +199,9 @@ paths:
       - in: header
         name: Accept
         description: Content type
+      - in: query
+        name: Accept
+        description: Content type
       responses:
         200:
           description: OK
@@ -161,6 +214,9 @@ paths:
       x-api-path-slug: apps-post
       parameters:
       - in: header
+        name: Accept
+        description: Content type
+      - in: query
         name: Accept
         description: Content type
       responses:
@@ -187,9 +243,17 @@ paths:
       operationId: getAppsName
       x-api-path-slug: appsname-get
       parameters:
+      - in: query
+        name: Accept
+        description: Content type
       - in: header
         name: Accept
         description: Content type
+      - in: query
+        name: name
+        description: The app name
+      - in: path
+        name: name
       responses:
         200:
           description: OK
@@ -202,9 +266,17 @@ paths:
       operationId: deleteAppsName
       x-api-path-slug: appsname-delete
       parameters:
+      - in: query
+        name: Accept
+        description: Content type
       - in: header
         name: Accept
         description: Content type
+      - in: query
+        name: name
+        description: The app name
+      - in: path
+        name: name
       responses:
         200:
           description: OK
@@ -233,6 +305,14 @@ paths:
       - in: header
         name: Accept
         description: Content type
+      - in: query
+        name: Accept
+        description: Content type
+      - in: query
+        name: app
+        description: The app name
+      - in: path
+        name: app
       responses:
         200:
           description: OK
@@ -262,6 +342,19 @@ paths:
       - in: header
         name: Accept
         description: Content type
+      - in: query
+        name: Accept
+        description: Content type
+      - in: query
+        name: app
+        description: The app name
+      - in: path
+        name: app
+      - in: query
+        name: email
+        description: The email of the user to remove as a collaborator
+      - in: path
+        name: email
       responses:
         200:
           description: OK
@@ -292,6 +385,14 @@ paths:
       - in: header
         name: Accept
         description: Content type
+      - in: query
+        name: Accept
+        description: Content type
+      - in: query
+        name: app
+        description: The app name
+      - in: path
+        name: app
       responses:
         200:
           description: OK
@@ -308,6 +409,14 @@ paths:
       - in: header
         name: Accept
         description: Content type
+      - in: query
+        name: Accept
+        description: Content type
+      - in: query
+        name: app
+        description: The app name
+      - in: path
+        name: app
       responses:
         200:
           description: OK
@@ -340,6 +449,19 @@ paths:
       - in: header
         name: Accept
         description: Content type
+      - in: query
+        name: Accept
+        description: Content type
+      - in: query
+        name: app
+        description: The app name
+      - in: path
+        name: app
+      - in: query
+        name: key
+        description: The config var to remove
+      - in: path
+        name: key
       responses:
         200:
           description: OK
@@ -370,6 +492,14 @@ paths:
       - in: header
         name: Accept
         description: Content type
+      - in: query
+        name: Accept
+        description: Content type
+      - in: query
+        name: app
+        description: The app name
+      - in: path
+        name: app
       responses:
         200:
           description: OK
@@ -399,6 +529,19 @@ paths:
       - in: header
         name: Accept
         description: Content type
+      - in: query
+        name: Accept
+        description: Content type
+      - in: query
+        name: app
+        description: The app name
+      - in: path
+        name: app
+      - in: query
+        name: domain_name
+        description: The domain to remove
+      - in: path
+        name: domain_name
       responses:
         200:
           description: OK
@@ -425,6 +568,9 @@ paths:
       operationId: getUserKeys
       x-api-path-slug: userkeys-get
       parameters:
+      - in: query
+        name: Accept
+        description: Content type
       - in: header
         name: Accept
         description: Content type
@@ -440,6 +586,9 @@ paths:
       operationId: postUserKeys
       x-api-path-slug: userkeys-post
       parameters:
+      - in: query
+        name: Accept
+        description: Content type
       - in: header
         name: Accept
         description: Content type
@@ -469,9 +618,17 @@ paths:
       operationId: deleteUserKeysKey
       x-api-path-slug: userkeyskey-delete
       parameters:
+      - in: query
+        name: Accept
+        description: Content type
       - in: header
         name: Accept
         description: Content type
+      - in: query
+        name: key
+        description: The username@hostname description field of the key
+      - in: path
+        name: key
       responses:
         200:
           description: OK
@@ -501,6 +658,29 @@ paths:
       - in: header
         name: Accept
         description: Content type
+      - in: query
+        name: Accept
+        description: Content type
+      - in: query
+        name: app
+        description: The app name
+      - in: path
+        name: app
+      - in: query
+        name: logplex
+        description: Use logplex to stream logs (always true)
+      - in: query
+        name: num
+        description: The number of lines to display
+      - in: query
+        name: ps
+        description: Only display logs from a given process
+      - in: query
+        name: source
+        description: Only display logs from a given source
+      - in: query
+        name: tail
+        description: '1: continually stream logs - : display only num logs'
       responses:
         200:
           description: OK
@@ -529,6 +709,14 @@ paths:
       - in: header
         name: Accept
         description: Content type
+      - in: query
+        name: Accept
+        description: Content type
+      - in: query
+        name: app
+        description: The app name
+      - in: path
+        name: app
       responses:
         200:
           description: OK
@@ -544,6 +732,14 @@ paths:
       - in: header
         name: Accept
         description: Content type
+      - in: query
+        name: Accept
+        description: Content type
+      - in: query
+        name: app
+        description: The app name
+      - in: path
+        name: app
       - in: query
         name: attach
         description: 'true: use rendezvous to access stdin/stdout - : stream process
@@ -581,6 +777,20 @@ paths:
       - in: header
         name: Accept
         description: Content type
+      - in: query
+        name: Accept
+        description: Content type
+      - in: query
+        name: app
+        description: The app name
+      - in: path
+        name: app
+      - in: query
+        name: ps
+        description: The name of a process to restart
+      - in: query
+        name: type
+        description: The type of process to restart
       responses:
         200:
           description: OK
@@ -612,6 +822,20 @@ paths:
       - in: header
         name: Accept
         description: Content type
+      - in: query
+        name: Accept
+        description: Content type
+      - in: path
+        name: app
+      - in: query
+        name: app
+        description: The app name
+      - in: query
+        name: ps
+        description: The name of a process to stop
+      - in: query
+        name: type
+        description: The type of process to stop
       responses:
         200:
           description: OK
@@ -642,6 +866,20 @@ paths:
       - in: header
         name: Accept
         description: Content type
+      - in: query
+        name: Accept
+        description: Content type
+      - in: query
+        name: app
+        description: The app name
+      - in: path
+        name: app
+      - in: query
+        name: qty
+        description: The desired number of processes of this type
+      - in: query
+        name: type
+        description: The type of process to scale
       responses:
         200:
           description: OK
@@ -668,9 +906,17 @@ paths:
       operationId: getAppsAppReleases
       x-api-path-slug: appsappreleases-get
       parameters:
+      - in: query
+        name: Accept
+        description: Content type
       - in: header
         name: Accept
         description: Content type
+      - in: query
+        name: app
+        description: The app name
+      - in: path
+        name: app
       responses:
         200:
           description: OK

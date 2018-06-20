@@ -36,6 +36,9 @@ paths:
       - in: header
         name: Accept
         description: Content type
+      - in: query
+        name: Accept
+        description: Content type
       responses:
         200:
           description: OK

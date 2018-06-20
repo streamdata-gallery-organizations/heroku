@@ -36,6 +36,9 @@ paths:
       - in: header
         name: Accept
         description: Content type
+      - in: query
+        name: Accept
+        description: Content type
       responses:
         200:
           description: OK
@@ -63,6 +66,14 @@ paths:
       - in: header
         name: Accept
         description: Content type
+      - in: query
+        name: Accept
+        description: Content type
+      - in: query
+        name: app
+        description: The app name
+      - in: path
+        name: app
       responses:
         200:
           description: OK
@@ -91,6 +102,19 @@ paths:
       - in: header
         name: Accept
         description: Content type
+      - in: query
+        name: Accept
+        description: Content type
+      - in: query
+        name: addon
+        description: the addon name
+      - in: path
+        name: addon
+      - in: query
+        name: app
+        description: The app name
+      - in: path
+        name: app
       responses:
         200:
           description: OK
@@ -106,6 +130,19 @@ paths:
       - in: header
         name: Accept
         description: Content type
+      - in: query
+        name: Accept
+        description: Content type
+      - in: query
+        name: addon
+        description: the addon name
+      - in: path
+        name: addon
+      - in: query
+        name: app
+        description: The app name
+      - in: path
+        name: app
       responses:
         200:
           description: OK
@@ -122,6 +159,19 @@ paths:
       - in: header
         name: Accept
         description: Content type
+      - in: query
+        name: Accept
+        description: Content type
+      - in: query
+        name: addon
+        description: the addon name
+      - in: path
+        name: addon
+      - in: query
+        name: app
+        description: The app name
+      - in: path
+        name: app
       responses:
         200:
           description: OK
@@ -149,6 +199,9 @@ paths:
       - in: header
         name: Accept
         description: Content type
+      - in: query
+        name: Accept
+        description: Content type
       responses:
         200:
           description: OK
@@ -161,6 +214,9 @@ paths:
       x-api-path-slug: apps-post
       parameters:
       - in: header
+        name: Accept
+        description: Content type
+      - in: query
         name: Accept
         description: Content type
       responses:

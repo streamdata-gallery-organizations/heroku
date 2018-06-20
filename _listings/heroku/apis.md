@@ -1,24 +1,22 @@
 ---
 name: Heroku
 x-slug: heroku
-description: Heroku is the first and best multi-language cloud application platform,
-  or platform-as-a-service. Heroku allows developers to deploy, scale, and manage
-  their apps without needing to think about servers or systems administration. Over
-  one million applications have been deployed to Heroku.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
+description: Heroku is a platform as a service (PaaS) that enables developers to build,
+  run, and operate applications entirely in the cloud.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
 x-kinRank: "8"
-x-alexaRank: ""
+x-alexaRank: "6044"
 tags: Heroku
-created: "2018-05-22"
-modified: "2018-05-22"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/heroku/master/_listings/heroku/apis.md
 specificationVersion: "0.14"
 apis:
 - name: Heroku Parameters Addons
   x-api-slug: heroku
   description: Parameters addons.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////addons
   tags: Parameters, ons
   properties:
@@ -29,8 +27,8 @@ apis:
 - name: Heroku Get Addons
   x-api-slug: heroku
   description: List all available addons.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////addons
   tags: ons
   properties:
@@ -41,8 +39,8 @@ apis:
 - name: Heroku Parameter Application Addons
   x-api-slug: heroku
   description: Parameter application addons.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////apps/{app}/addons
   tags: Parameter, Application, ons
   properties:
@@ -53,8 +51,8 @@ apis:
 - name: Heroku Get Application Addons
   x-api-slug: heroku
   description: List addons installed on an app.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////apps/{app}/addons
   tags: Application, ons
   properties:
@@ -65,8 +63,8 @@ apis:
 - name: Heroku Parameters Applications Addons
   x-api-slug: heroku
   description: Parameters applications addons.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////apps/{app}/addons/{addon}
   tags: Parameters, Applications, ons
   properties:
@@ -75,8 +73,8 @@ apis:
 - name: Heroku Add Application Addons
   x-api-slug: heroku
   description: Install an addon to an app.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////apps/{app}/addons/{addon}
   tags: Application, ons
   properties:
@@ -87,8 +85,8 @@ apis:
 - name: Heroku Put Application Addons
   x-api-slug: heroku
   description: Upgrade an addon to an app.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////apps/{app}/addons/{addon}
   tags: Put, Application, ons
   properties:
@@ -99,8 +97,8 @@ apis:
 - name: Heroku Delete Applications Addons
   x-api-slug: heroku
   description: Uninstall an addon from an app.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////apps/{app}/addons/{addon}
   tags: Applications, ons
   properties:
@@ -109,8 +107,8 @@ apis:
 - name: Heroku Parameters Applications
   x-api-slug: heroku
   description: Parameters applications.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////apps
   tags: Parameters, Applications
   properties:
@@ -119,8 +117,8 @@ apis:
 - name: Heroku Get Applications
   x-api-slug: heroku
   description: Get applications.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////apps
   tags: Applications
   properties:
@@ -129,8 +127,8 @@ apis:
 - name: Heroku Add Applications
   x-api-slug: heroku
   description: Add applications.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////apps
   tags: Applications
   properties:
@@ -139,8 +137,8 @@ apis:
 - name: Heroku Parameters Applications Name
   x-api-slug: heroku
   description: Parameters applications name.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////apps/{name}
   tags: Parameters, Applications, Name
   properties:
@@ -149,8 +147,8 @@ apis:
 - name: Heroku Get Applications Name
   x-api-slug: heroku
   description: Get applications name.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////apps/{name}
   tags: Applications, Name
   properties:
@@ -159,8 +157,8 @@ apis:
 - name: Heroku Delete Applications Name
   x-api-slug: heroku
   description: Delete applications name.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////apps/{name}
   tags: Applications, Name
   properties:
@@ -169,8 +167,8 @@ apis:
 - name: Heroku Parameters Application Collaborators
   x-api-slug: heroku
   description: Parameters application collaborators.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////apps/{app}/collaborators
   tags: Parameters, Application, Collaborators
   properties:
@@ -179,8 +177,8 @@ apis:
 - name: Heroku Get Application Collaborators
   x-api-slug: heroku
   description: List collaborators for an app.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////apps/{app}/collaborators
   tags: Application, Collaborators
   properties:
@@ -189,8 +187,8 @@ apis:
 - name: Heroku Parameters Application Collaborators Email
   x-api-slug: heroku
   description: Parameters application collaborators email.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////apps/{app}/collaborators/{email}
   tags: Parameters, Application, Collaborators, Email
   properties:
@@ -199,8 +197,8 @@ apis:
 - name: Heroku Delete Application Collaborators Email
   x-api-slug: heroku
   description: Delete application collaborators email.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////apps/{app}/collaborators/{email}
   tags: Application, Collaborators, Email
   properties:
@@ -209,8 +207,8 @@ apis:
 - name: Heroku Parameters Application Config Variables
   x-api-slug: heroku
   description: Parameters application config variables.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////apps/{app}/config_vars
   tags: Parameters, Application, Config, Variables
   properties:
@@ -219,8 +217,8 @@ apis:
 - name: Heroku Get Application Config Variables
   x-api-slug: heroku
   description: Get application config variables.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////apps/{app}/config_vars
   tags: Application, Config, Variables
   properties:
@@ -231,8 +229,8 @@ apis:
 - name: Heroku Put Application Config Variables
   x-api-slug: heroku
   description: Put application config variables.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////apps/{app}/config_vars
   tags: Put, Application, Config, Variables
   properties:
@@ -243,8 +241,8 @@ apis:
 - name: Heroku Parameters Application Config Variables Key
   x-api-slug: heroku
   description: Parameters application config variables key.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////apps/{app}/config_vars/{key}
   tags: Parameters, Application, Config, Variables, Key
   properties:
@@ -253,8 +251,8 @@ apis:
 - name: Heroku Delete Application Config Variables Key
   x-api-slug: heroku
   description: Delete application config variables key.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////apps/{app}/config_vars/{key}
   tags: Application, Config, Variables, Key
   properties:
@@ -265,8 +263,8 @@ apis:
 - name: Heroku Parameters Application Domains
   x-api-slug: heroku
   description: Parameters application domains.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////apps/{app}/domains
   tags: Parameters, Application, Domains
   properties:
@@ -275,8 +273,8 @@ apis:
 - name: Heroku Get Application Domains
   x-api-slug: heroku
   description: List domains for an app.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////apps/{app}/domains
   tags: Application, Domains
   properties:
@@ -285,8 +283,8 @@ apis:
 - name: Heroku Parameters Application Domain Name
   x-api-slug: heroku
   description: Parameters application domain name.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////apps/{app}/domains/{domain_name}
   tags: Parameters, Application, Domain, Name
   properties:
@@ -295,8 +293,8 @@ apis:
 - name: Heroku Delete Application Domain Name
   x-api-slug: heroku
   description: Delete application domain name.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////apps/{app}/domains/{domain_name}
   tags: Application, Domain, Name
   properties:
@@ -307,8 +305,8 @@ apis:
 - name: Heroku Parameters User Keys
   x-api-slug: heroku
   description: Parameters user keys.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////user/keys
   tags: Parameters, User, Keys
   properties:
@@ -317,8 +315,8 @@ apis:
 - name: Heroku Get User Keys
   x-api-slug: heroku
   description: List SSH keys.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////user/keys
   tags: User, Keys
   properties:
@@ -327,8 +325,8 @@ apis:
 - name: Heroku Add User Keys
   x-api-slug: heroku
   description: Associate an SSH key with this account.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////user/keys
   tags: User, Keys
   properties:
@@ -337,8 +335,8 @@ apis:
 - name: Heroku Parameters User Keys Key
   x-api-slug: heroku
   description: Parameters user keys key.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////user/keys/{key}
   tags: Parameters, User, Keys, Key
   properties:
@@ -347,8 +345,8 @@ apis:
 - name: Heroku Delete User Keys Key
   x-api-slug: heroku
   description: Remove an SSH key from this account.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////user/keys/{key}
   tags: User, Keys, Key
   properties:
@@ -357,8 +355,8 @@ apis:
 - name: Heroku Parameters Application Logs
   x-api-slug: heroku
   description: Parameters application logs.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////apps/{app}/logs
   tags: Parameters, Application, Logs
   properties:
@@ -367,8 +365,8 @@ apis:
 - name: Heroku Get Application Logs
   x-api-slug: heroku
   description: Get application logs.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////apps/{app}/logs
   tags: Application, Logs
   properties:
@@ -379,8 +377,8 @@ apis:
 - name: Heroku Parameters Application PS
   x-api-slug: heroku
   description: Parameters application ps.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////apps/{app}/ps
   tags: Parameters, Application, PS
   properties:
@@ -389,8 +387,8 @@ apis:
 - name: Heroku Get Application PS
   x-api-slug: heroku
   description: List processes for an app.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////apps/{app}/ps
   tags: Application, PS
   properties:
@@ -401,8 +399,8 @@ apis:
 - name: Heroku Add Application PS
   x-api-slug: heroku
   description: Run a one-off process.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////apps/{app}/ps
   tags: Application, PS
   properties:
@@ -413,8 +411,8 @@ apis:
 - name: Heroku Parameters Application PS Restart
   x-api-slug: heroku
   description: Parameters application ps restart.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////apps/{app}/ps/restart
   tags: Parameters, Application, PS, Restart
   properties:
@@ -424,8 +422,8 @@ apis:
   x-api-slug: heroku
   description: Restart processes of an app. Specify either ps or type to restart only
     the specified processes. Leave both blank to restart the entire app.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////apps/{app}/ps/restart
   tags: Application, PS, Restart
   properties:
@@ -436,8 +434,8 @@ apis:
 - name: Heroku Parameters Application PS Stop
   x-api-slug: heroku
   description: Parameters application ps stop.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////apps/{app}/ps/stop
   tags: Parameters, Application, PS, Stop
   properties:
@@ -447,8 +445,8 @@ apis:
   x-api-slug: heroku
   description: Stop processes of an app. Specify either ps or type to stop the specified
     processes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////apps/{app}/ps/stop
   tags: Application, PS, Stop
   properties:
@@ -459,8 +457,8 @@ apis:
 - name: Heroku Parameters Application PS Scale
   x-api-slug: heroku
   description: Parameters application ps scale.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////apps/{app}/ps/scale
   tags: Parameters, Application, PS, Scale
   properties:
@@ -469,8 +467,8 @@ apis:
 - name: Heroku Add Application PS Scale
   x-api-slug: heroku
   description: Scale processes of an app.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////apps/{app}/ps/scale
   tags: Application, PS, Scale
   properties:
@@ -481,8 +479,8 @@ apis:
 - name: Heroku Parameters Application Releases
   x-api-slug: heroku
   description: Parameters application releases.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////apps/{app}/releases
   tags: Parameters, Application, Releases
   properties:
@@ -491,8 +489,8 @@ apis:
 - name: Heroku Get Application Releases
   x-api-slug: heroku
   description: List releases for an app.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////apps/{app}/releases
   tags: Application, Releases
   properties:
@@ -503,8 +501,8 @@ apis:
 - name: Heroku Add Application Releases
   x-api-slug: heroku
   description: Add application releases.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////apps/{app}/releases
   tags: Application, Releases
   properties:
@@ -515,8 +513,8 @@ apis:
 - name: Heroku Parameters Application Releases
   x-api-slug: heroku
   description: Parameters application releases.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////apps/{app}/releases/{release}
   tags: Parameters, Application, Releases
   properties:
@@ -525,8 +523,8 @@ apis:
 - name: Heroku Get Application Releases
   x-api-slug: heroku
   description: Get application releases.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////apps/{app}/releases/{release}
   tags: Application, Releases
   properties:
@@ -537,8 +535,8 @@ apis:
 - name: Heroku Parameters Application Stack
   x-api-slug: heroku
   description: Parameters application stack.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////apps/{app}/stack
   tags: Parameters, Application, Stack
   properties:
@@ -547,8 +545,8 @@ apis:
 - name: Heroku Get Application Stack
   x-api-slug: heroku
   description: List available stacks for an app.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////apps/{app}/stack
   tags: Application, Stack
   properties:
@@ -559,8 +557,8 @@ apis:
 - name: Heroku Put Application Stack
   x-api-slug: heroku
   description: Migrate an app to a new stack.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////apps/{app}/stack
   tags: Put, Application, Stack
   properties:
@@ -571,8 +569,8 @@ apis:
 - name: Heroku
   x-api-slug: heroku
   description: Learn about building, deploying and managing your apps on Heroku.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com//
   tags: Heroku
   properties:
@@ -588,9 +586,17 @@ x-common:
 - type: x-command-line-interface
   url: https://devcenter.heroku.com/articles/heroku-command
 - type: x-crunchbase
+  url: https://crunchbase.com/organization/heroku
+- type: x-crunchbase
   url: http://www.crunchbase.com/company/heroku
 - type: x-developer
   url: https://devcenter.heroku.com/
+- type: x-email
+  url: pr@heroku.com
+- type: x-email
+  url: abuse@heroku.com
+- type: x-email
+  url: feedback@heroku.com
 - type: x-getting-started
   url: https://devcenter.heroku.com/start
 - type: x-github
@@ -599,7 +605,7 @@ x-common:
   url: https://status.heroku.com/incidents
 - type: x-java-library
   url: https://devcenter.heroku.com/categories/java
-- type: x-nodejs
+- type: x-node-js
   url: https://devcenter.heroku.com/categories/nodejs
 - type: x-php-library
   url: https://devcenter.heroku.com/categories/php
@@ -620,7 +626,11 @@ x-common:
 - type: x-terms-of-service
   url: https://www.heroku.com/policy/tos
 - type: x-twitter
+  url: https://twitter.com/heroku
+- type: x-twitter
   url: https://twitter.com/HerokuDevCenter
+- type: x-website
+  url: http://heroku.com
 - type: x-website
   url: https://www.heroku.com/
 include: []
