@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Heroku",
+	"description": "This is a repository of heroku APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/heroku.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-30",
+	"url": "http://heroku.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Heroku",
+			"x-api-slug": "heroku",
+			"description": "Heroku is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg",
+			"humanURL": "http://heroku.com",
+			"baseURL": "https://api.heroku.com//",
+			"tags": "Heroku",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/heroku/master/_listings/heroku/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Heroku",
+	"include": [
+		{
+			"name": "Heroku",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/heroku/master/_listings/heroku/apis.yaml"
+		}
+	]
+}
